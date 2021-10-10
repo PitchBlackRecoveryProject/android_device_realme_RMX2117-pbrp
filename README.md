@@ -1,5 +1,5 @@
-# android_device_realme_RMX2173-pbrp
-For building PBRP for realme Q2 Pro
+# android_device_realme_RMX3092-pbrp
+For building PBRP for "Realme X7"
 
 ## Features
 
@@ -29,10 +29,10 @@ Finally execute these:
 ```
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch omni_RMX2173-eng
+lunch omni_RMX3092-eng
 mka -j$(nproc --all) pbrp
 
 |or|
 
-export ALLOW_MISSING_DEPENDENCIES=true; source build/envsetup.sh; lunch omni_RMX2173-eng; mka -j$(nproc --all) pbrp
+export ALLOW_MISSING_DEPENDENCIES=true; source build/envsetup.sh; lunch omni_RMX3092-eng; mka -j$(nproc --all) pbrp
 ```

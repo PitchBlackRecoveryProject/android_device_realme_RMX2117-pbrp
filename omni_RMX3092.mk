@@ -26,11 +26,11 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/roo
 	$(LOCAL_PATH)/prebuilt/dtb:dtb.img
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := RMX2173
-PRODUCT_NAME := omni_RMX2173
-PRODUCT_BRAND := RealMe
-PRODUCT_MODEL := Q2 Pro 5G
-PRODUCT_MANUFACTURER := RealMe
+PRODUCT_DEVICE := RMX3092
+PRODUCT_NAME := omni_RMX3092
+PRODUCT_BRAND := Realme
+PRODUCT_MODEL := X7
+PRODUCT_MANUFACTURER := Realme
 
 # Dynamic
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
