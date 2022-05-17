@@ -14,7 +14,10 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/realme/RMX3092
+DEVICE_PATH := device/realme/RMX2117
+
+# For building with minimal manifest
+ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
 TARGET_ARCH := arm64
@@ -39,7 +42,7 @@ TARGET_NO_BOOTLOADER := true
 TARGET_BOARD_PLATFORM := mt6853
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX3092,RMX3092PU,RMX3092L1
+TARGET_OTA_ASSERT_DEVICE := RMX2117
 
 # Kernel
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
